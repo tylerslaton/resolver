@@ -12,9 +12,9 @@ import (
 	v1alpha1listers "github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/listers/operators/v1alpha1"
 	"github.com/operator-framework/operator-registry/pkg/api"
 	opregistry "github.com/operator-framework/operator-registry/pkg/registry"
-	"github.com/operator-framework/resolver/pkg/cache"
-	"github.com/operator-framework/resolver/pkg/projection"
 	"github.com/sirupsen/logrus"
+	"github.com/tylerslaton/resolver/pkg/cache"
+	"github.com/tylerslaton/resolver/pkg/projection"
 	"k8s.io/apimachinery/pkg/labels"
 )
 

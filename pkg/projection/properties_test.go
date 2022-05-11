@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/operator-framework/operator-registry/pkg/api"
-	"github.com/operator-framework/resolver/pkg/projection"
 	"github.com/stretchr/testify/assert"
+	"github.com/tylerslaton/resolver/pkg/projection"
 )
 
 func TestPropertiesAnnotationFromPropertyList(t *testing.T) {

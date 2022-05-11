@@ -16,8 +16,8 @@ import (
 
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 	controllerbundle "github.com/operator-framework/operator-lifecycle-manager/pkg/controller/bundle"
-	"github.com/operator-framework/resolver/pkg/cache"
-	"github.com/operator-framework/resolver/pkg/projection"
+	"github.com/tylerslaton/resolver/pkg/cache"
+	"github.com/tylerslaton/resolver/pkg/projection"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/operator-framework/resolver
+module github.com/tylerslaton/resolver
 
 go 1.17
 

@@ -16,7 +16,7 @@ import (
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 	"github.com/operator-framework/operator-registry/pkg/api"
 	opregistry "github.com/operator-framework/operator-registry/pkg/registry"
-	"github.com/operator-framework/resolver/pkg/cache"
+	"github.com/tylerslaton/resolver/pkg/cache"
 )
 
 func TestInferProperties(t *testing.T) {

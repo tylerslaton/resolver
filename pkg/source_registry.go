@@ -12,8 +12,8 @@ import (
 	"github.com/operator-framework/operator-registry/pkg/api"
 	"github.com/operator-framework/operator-registry/pkg/client"
 	opregistry "github.com/operator-framework/operator-registry/pkg/registry"
-	"github.com/operator-framework/resolver/pkg/cache"
 	"github.com/sirupsen/logrus"
+	"github.com/tylerslaton/resolver/pkg/cache"
 )
 
 // todo: move to pkg/controller/operators/catalog

@@ -24,8 +24,8 @@ import (
 	"github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions"
 	controllerbundle "github.com/operator-framework/operator-lifecycle-manager/pkg/controller/bundle"
 	"github.com/operator-framework/operator-lifecycle-manager/pkg/lib/operatorlister"
-	resolvercache "github.com/operator-framework/resolver/pkg/cache"
-	"github.com/operator-framework/resolver/pkg/solver"
+	resolvercache "github.com/tylerslaton/resolver/pkg/cache"
+	"github.com/tylerslaton/resolver/pkg/solver"
 	"k8s.io/client-go/tools/cache"
 )
 

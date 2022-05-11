@@ -16,7 +16,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
-	"github.com/operator-framework/resolver/pkg/cache"
+	"github.com/tylerslaton/resolver/pkg/cache"
 )
 
 func csv(name, replaces string, ownedCRDs, requiredCRDs, ownedAPIServices, requiredAPIServices cache.APISet, permissions, clusterPermissions []v1alpha1.StrategyDeploymentPermissions) *v1alpha1.ClusterServiceVersion {
