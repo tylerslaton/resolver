@@ -9,3 +9,6 @@ Next we will show OLM using this new package that is separate of OLM, but still 
 
 * End Goal: 
 Pending how the POC goes, we eventually want to remove dependencies of OLM entirely and also make it more abstract to what it can resolve.
+
+
+For more information check out this hackmd doc. https://hackmd.io/rHQliP4IR-2oEPbNLP0jAA
